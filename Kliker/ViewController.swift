@@ -46,7 +46,9 @@ class ViewController: UIViewController {
             self.speedLabel.text="Speed: " + String(format:"%.3f", elapsedTime)
             i=0
             
+            
             //First put
+            //for commit. you can delete it
             if j==max
             {
                 self.bestTime.text="Best time now: " + String(format:"%.3f", elapsedTime)

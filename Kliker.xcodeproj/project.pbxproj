@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84BF33B41A4B2D390055843D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF33B31A4B2D390055843D /* AppDelegate.swift */; };
+		84BF33B61A4B2D390055843D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF33B51A4B2D390055843D /* ViewController.swift */; };
+		84BF33B91A4B2D390055843D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BF33B71A4B2D390055843D /* Main.storyboard */; };
+		84BF33BB1A4B2D390055843D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BF33BA1A4B2D390055843D /* Images.xcassets */; };
+		84BF33BE1A4B2D390055843D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BF33BC1A4B2D390055843D /* LaunchScreen.xib */; };
+		84BF33CA1A4B2D390055843D /* KlikerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF33C91A4B2D390055843D /* KlikerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84BF33C41A4B2D390055843D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BF33A61A4B2D390055843D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BF33AD1A4B2D390055843D;
+			remoteInfo = Kliker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84BF33AE1A4B2D390055843D /* Kliker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kliker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BF33B21A4B2D390055843D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BF33B31A4B2D390055843D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84BF33B51A4B2D390055843D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84BF33B81A4B2D390055843D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84BF33BA1A4B2D390055843D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84BF33BD1A4B2D390055843D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84BF33C31A4B2D390055843D /* KlikerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlikerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BF33C81A4B2D390055843D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BF33C91A4B2D390055843D /* KlikerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlikerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BF33AB1A4B2D390055843D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BF33C01A4B2D390055843D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84BF33A51A4B2D390055843D = {
+			isa = PBXGroup;
+			children = (
+				84BF33B01A4B2D390055843D /* Kliker */,
+				84BF33C61A4B2D390055843D /* KlikerTests */,
+				84BF33AF1A4B2D390055843D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84BF33AF1A4B2D390055843D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BF33AE1A4B2D390055843D /* Kliker.app */,
+				84BF33C31A4B2D390055843D /* KlikerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BF33B01A4B2D390055843D /* Kliker */ = {
+			isa = PBXGroup;
+			children = (
+				84BF33B31A4B2D390055843D /* AppDelegate.swift */,
+				84BF33B51A4B2D390055843D /* ViewController.swift */,
+				84BF33B71A4B2D390055843D /* Main.storyboard */,
+				84BF33BA1A4B2D390055843D /* Images.xcassets */,
+				84BF33BC1A4B2D390055843D /* LaunchScreen.xib */,
+				84BF33B11A4B2D390055843D /* Supporting Files */,
+			);
+			path = Kliker;
+			sourceTree = "<group>";
+		};
+		84BF33B11A4B2D390055843D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BF33B21A4B2D390055843D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84BF33C61A4B2D390055843D /* KlikerTests */ = {
+			isa = PBXGroup;
+			children = (
+				84BF33C91A4B2D390055843D /* KlikerTests.swift */,
+				84BF33C71A4B2D390055843D /* Supporting Files */,
+			);
+			path = KlikerTests;
+			sourceTree = "<group>";
+		};
+		84BF33C71A4B2D390055843D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BF33C81A4B2D390055843D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BF33AD1A4B2D390055843D /* Kliker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BF33CD1A4B2D390055843D /* Build configuration list for PBXNativeTarget "Kliker" */;
+			buildPhases = (
+				84BF33AA1A4B2D390055843D /* Sources */,
+				84BF33AB1A4B2D390055843D /* Frameworks */,
+				84BF33AC1A4B2D390055843D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kliker;
+			productName = Kliker;
+			productReference = 84BF33AE1A4B2D390055843D /* Kliker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84BF33C21A4B2D390055843D /* KlikerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BF33D01A4B2D390055843D /* Build configuration list for PBXNativeTarget "KlikerTests" */;
+			buildPhases = (
+				84BF33BF1A4B2D390055843D /* Sources */,
+				84BF33C01A4B2D390055843D /* Frameworks */,
+				84BF33C11A4B2D390055843D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84BF33C51A4B2D390055843D /* PBXTargetDependency */,
+			);
+			name = KlikerTests;
+			productName = KlikerTests;
+			productReference = 84BF33C31A4B2D390055843D /* KlikerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BF33A61A4B2D390055843D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Mamka Admina";
+				TargetAttributes = {
+					84BF33AD1A4B2D390055843D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					84BF33C21A4B2D390055843D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 84BF33AD1A4B2D390055843D;
+					};
+				};
+			};
+			buildConfigurationList = 84BF33A91A4B2D390055843D /* Build configuration list for PBXProject "Kliker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84BF33A51A4B2D390055843D;
+			productRefGroup = 84BF33AF1A4B2D390055843D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BF33AD1A4B2D390055843D /* Kliker */,
+				84BF33C21A4B2D390055843D /* KlikerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BF33AC1A4B2D390055843D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BF33B91A4B2D390055843D /* Main.storyboard in Resources */,
+				84BF33BE1A4B2D390055843D /* LaunchScreen.xib in Resources */,
+				84BF33BB1A4B2D390055843D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BF33C11A4B2D390055843D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BF33AA1A4B2D390055843D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BF33B61A4B2D390055843D /* ViewController.swift in Sources */,
+				84BF33B41A4B2D390055843D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BF33BF1A4B2D390055843D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BF33CA1A4B2D390055843D /* KlikerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84BF33C51A4B2D390055843D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BF33AD1A4B2D390055843D /* Kliker */;
+			targetProxy = 84BF33C41A4B2D390055843D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84BF33B71A4B2D390055843D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BF33B81A4B2D390055843D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84BF33BC1A4B2D390055843D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BF33BD1A4B2D390055843D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84BF33CB1A4B2D390055843D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84BF33CC1A4B2D390055843D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84BF33CE1A4B2D390055843D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kliker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84BF33CF1A4B2D390055843D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kliker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84BF33D11A4B2D390055843D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KlikerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kliker.app/Kliker";
+			};
+			name = Debug;
+		};
+		84BF33D21A4B2D390055843D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KlikerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kliker.app/Kliker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BF33A91A4B2D390055843D /* Build configuration list for PBXProject "Kliker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BF33CB1A4B2D390055843D /* Debug */,
+				84BF33CC1A4B2D390055843D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BF33CD1A4B2D390055843D /* Build configuration list for PBXNativeTarget "Kliker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BF33CE1A4B2D390055843D /* Debug */,
+				84BF33CF1A4B2D390055843D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84BF33D01A4B2D390055843D /* Build configuration list for PBXNativeTarget "KlikerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BF33D11A4B2D390055843D /* Debug */,
+				84BF33D21A4B2D390055843D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84BF33A61A4B2D390055843D /* Project object */;
+}

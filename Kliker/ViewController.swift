@@ -51,14 +51,14 @@ class ViewController: UIViewController {
             //for commit. you can delete it
             if j==max
             {
-                self.bestTime.text="Best time now: " + String(format:"%.3f", elapsedTime)
+                self.bestTime.text="Best time (in 5 pressing): " + String(format:"%.3f", elapsedTime)
                 bestTimeNow=elapsedTime
             }
             //Find best Time
             if elapsedTime < bestTimeNow
             {
                 bestTimeNow=elapsedTime
-                self.bestTime.text="Best time now: " + String(format:"%.3f", bestTimeNow)
+                self.bestTime.text="Best time (in 5 pressing): " + String(format:"%.3f", bestTimeNow)
             }
             
             
